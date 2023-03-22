@@ -7,7 +7,7 @@ namespace MyFirstWebProjectASP.Pages
     {
         private readonly ILogger<IndexModel> _logger;
 
-        public static Dictionary<string, int> exp = new Dictionary<string, int>() {
+        public static Dictionary<string, int> exp = new() {
             { "one", 1},
             { "two", 2},
             { "three", 3},
