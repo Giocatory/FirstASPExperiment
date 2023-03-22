@@ -8,3 +8,19 @@
     <h1 class="display-4">Привет Пользователь</h1>
     <p>Это твое первое приложение <mark>ASP.NET Core</mark>!</p>
 </div>
+
+<table>
+    <tr>
+        <th>String</th>
+        <th>Number</th>
+    </tr>
+        @{
+            foreach(var k in IndexModel.exp)
+            {
+                <tr>
+                    <td>@k.Key</td>
+                    <td>@k.Value</td>
+                </tr>
+            }
+        }
+</table>
