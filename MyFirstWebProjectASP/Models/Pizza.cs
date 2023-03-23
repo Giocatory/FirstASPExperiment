@@ -8,6 +8,7 @@ namespace MyFirstWebProjectASP.Models
 
         [Required]
         public string? Name { get; set; }
+
         public PizzaSize Size { get; set; }
         public bool IsGlutenFree { get; set; }
 

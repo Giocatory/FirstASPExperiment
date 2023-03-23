@@ -9,6 +9,7 @@ namespace MyFirstWebProjectASP.Pages
     {
         [BindProperty]
         public Pizza NewPizza { get; set; } = new();
+
         public List<Pizza> pizzas = new();
         /* Привязка к свойствам позволяет уменьшить объем кода, который необходимо написать.
          * Это достигается за счет того, что для отображения полей, как в <input asp-for="Pizza.Name">,

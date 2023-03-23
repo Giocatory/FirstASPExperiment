@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
+﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace MyFirstWebProjectASP.Pages
 {
@@ -22,7 +21,6 @@ namespace MyFirstWebProjectASP.Pages
 
         public void OnGet()
         {
-
         }
     }
 }
